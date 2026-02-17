@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
 // --------------------
 // MongoDB setup
 // --------------------
-const MONGODB_URI = "mongodb+srv://user2:fhgjhkbkggdg@cluster0.bydrhoy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGODB_URI = "mongodb+srv://tg-kitchen:2olP5KpXzMHQj7Is@cluster0.w8ba76p.mongodb.net/FEDEX-PHP?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URI)
   .then(() => console.log('✅ MongoDB connected'))
